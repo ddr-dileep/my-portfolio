@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import "./styles.css";
-import "./globals.scss";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,27 +27,9 @@ function RootLayout({
     <html lang="en">
       <meta
         content="Free HTML Templates"
-        name="Dilee Raloti, dileep, dileepraloti raloti ddrdileep ddr-dileep @dilee @dileepraloti"
+        name="Dileep Raloti, dileep, dileepraloti raloti ddrdileep ddr-dileep @dileep @dileepraloti"
       />
-      <link href="img/favicon.ico" rel="icon" />
-
-      <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-        rel="stylesheet"
-      />
-
-      <link
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-        rel="stylesheet"
-      />
-
-      <link
-        href="lib/owlcarousel/assets/owl.carousel.min.css"
-        rel="stylesheet"
-      />
-      <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
-      <meta content="Dilee Raloti" name="description" />
+      <meta content="Dileep Raloti" name="dileep raloti" />
       <body
         suppressHydrationWarning={true}
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
