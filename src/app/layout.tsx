@@ -28,7 +28,7 @@ function RootLayout({
   return (
     <html lang="en">
       <Head>
-        {/* <title>{metadata?.title || "Default Title"}</title> */}
+        <title>{"Dileep Raloti"}</title>
         <meta
           name="description"
           content={
