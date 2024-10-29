@@ -52,7 +52,7 @@ function RootLayout({
         suppressHydrationWarning={true}
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <HeaderNavBar />
+        {/* <HeaderNavBar /> */}
         {children}
       </body>
     </html>
