@@ -18,13 +18,13 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Dileep Raloti - portfolio",
   description:
-    "Dileep Raloti Portfolio - A passionate software developer dedicated to crafting solutions that resonate. I don’t just build software; I design and create meaningful experiences.😊",
+    "Dileep Raloti - A passionate software developer dedicated to crafting solutions that resonate. I don’t just build software; I design and create meaningful experiences.😊",
   openGraph: {
     images: [
       {
         url: "/image/my-image.png",
-        width: 650,
-        height: 650,
+        width: 450,
+        height: 450,
         alt: "Dileep Raloti Portfolio Image",
       },
     ],
