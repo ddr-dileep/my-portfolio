@@ -16,8 +16,19 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Dileep Raloti - Homepage",
-  description: "Dileep Raloti portfolio - Homepage",
+  title: "Dileep Raloti - portfolio",
+  description:
+    "Dileep Raloti Portfolio - A passionate software developer dedicated to crafting solutions that resonate. I don’t just build software; I design and create meaningful experiences.😊",
+  openGraph: {
+    images: [
+      {
+        url: "/image/my-image.png",
+        width: 650,
+        height: 650,
+        alt: "Dileep Raloti Portfolio Image",
+      },
+    ],
+  },
 };
 
 function RootLayout({
